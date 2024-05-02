@@ -1,0 +1,12 @@
+# WIP
+
+Question 1: Write the syntax to declare a integer variable in C.
+Question 2: Write the syntax to declare a integer variable in C.
+Question 3: Write the syntax to declare a integer variable in C.
+Question 4: Write the syntax to declare a integer variable in C.
+Question 5: Write the syntax to declare a integer variable in C.
+Question 6: Write the syntax to declare a integer variable in C.
+Question 7: Write the syntax to declare a integer variable in C.
+Question 8: Write the syntax to declare a integer variable in C.
+Question 9: Write the syntax to declare a integer variable in C.
+Question 10: Write the syntax to declare a integer variable in C.
