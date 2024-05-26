@@ -1,0 +1,59 @@
+1. A function can return a value to the calling code. What happens if a function doesn't explicitly return a value? 
+a) The function crashes the program.
+b) The function returns 0 by default.
+c) The function returns a random value. 
+d) The function continues to execute indefinitely.
+
+2. A linked list is a linear data structure where each element (called a node) contains: 
+a) Data and pointers to both next and previous elements.
+b) Data and a pointer to the previous element.
+c) Data and a pointer to the next element.
+d) Only data.
+
+3. When you pass an array to a function in C, what is actually passed? 
+a) A pointer to the first element of the array.
+b) The entire array content is copied.
+c) None of the above.
+d) The size of the array.
+
+4. A binary search tree is a sorted search tree that allows for efficient searching. What is the maximum number of child nodes a node can have in a binary search tree? 
+a) 1
+b) 3
+c) Unlimited
+d) 2
+
+5. Dynamic memory allocation allows you to allocate memory during program execution using functions like malloc and free. What happens if you forget to call free on allocated memory? 
+a) The program crashes.
+b) The memory leak occurs, reducing available memory over time.
+c) The allocated memory is automatically freed after the function exits.
+d) None of the above.
+
+6. What are the advantages and disadvantages of using a linked list compared to an array? (Choose all that apply) 
+a) Linked lists are more flexible in size but slower for random access.
+b) Arrays are easier to implement but have fixed size. 
+c) Linked lists can store any data type, while arrays are limited to a single type.
+d) Arrays are better for storing large amounts of data.
+
+7. How can you reverse a string in C? (Choose all that apply) 
+a) Use a built-in library function if available.
+b) Recursively call a function to reverse a substring until the entire string is reversed. 
+c) None of the above.
+d) Use a loop to iterate through the string from the end to the beginning, copying characters to a new string in reverse order.
+
+8. What is the concept of recursion in programming? 
+a) A function that calls itself directly or indirectly.
+b) A loop that iterates a set number of times.
+c) A way to pass data between functions using arguments.
+d) A method for sorting elements in an array.
+
+9. When using malloc to allocate memory, what should you do to avoid memory leaks? 
+a) Allocate memory only once at the beginning of the program.
+b) Set the allocated memory pointer to NULL after use.
+c) Use free on the allocated memory pointer when you are finished using it.
+d) None of the above.
+
+10. How does a binary search algorithm work in C? 
+a) It iterates through the entire array, comparing each element to the target value.
+b) It repeatedly divides the search space in half based on a comparison with the target value, eliminating half of the array at each step.
+c) Doesn't require the array to be sorted beforehand.
+d) It can only be used for searching arrays of integers.

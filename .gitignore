@@ -1,0 +1,5 @@
+.vscode
+bin/*.exe
+debug/bin/*.exe
+docs/report
+obj

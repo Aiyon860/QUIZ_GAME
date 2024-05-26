@@ -1,0 +1,59 @@
+1. Which of the following operators is used for arithmetic addition?
+a) +
+b) *
+c) =
+d) &&
+
+2. A collection of items where elements are added and removed from one specific end is called a:
+a) Queue
+b) Stack
+c) Linked List
+d) Array
+
+3. In C, how do you declare a variable named age to store an integer value? 
+a) int age = 0;
+b) string age = "0";
+c) age = int(0);
+d) None of the above.
+
+4. An array is a fixed-size, sequential collection of elements that can be accessed directly using an index. What operation has the fastest time complexity for accessing elements in an array? 
+a) Insertion
+b) Deletion
+c) Access
+d) Sorting
+
+5. A while loop continues to execute a block of code as long as a certain condition is true. How can you write a while loop that prints the numbers from 1 to 5? 
+a) for (i = 1; i <= 5; i++) { ... }
+b) do { ... } while (i <= 5);
+c) All of the above are valid.
+d) while (i <= 5) { ... }
+
+6. What is the difference between a linear and non-linear data structure? 
+a) Linear data structures can only store numbers, while non-linear data structures can store any data type.
+b) Linear data structures have elements arranged in a specific order, while non-linear data structures do not.
+c) Linear data structures are always stored in memory contiguously, while non-linear data structures are not.
+d) None of the above.
+
+7. How do you declare and initialize an array in C to store 10 characters? 
+a) char myString[10];
+b) char *myString = "Hello";
+c) string myString = 10;
+d) None of the above.
+
+8. What are the common operations performed on an array (Choose all that apply)? 
+a) Accessing elements.
+b) Inserting elements at any position.
+c) Deleting elements from any position.
+d) Finding the size of the array.
+
+9. What is a for loop and how is it used for iterating through an array? 
+a) A for loop is an event-driven loop that executes until a specific event occurs.
+b) A for loop allows you to iterate a specific number of times, often used to access elements in an array by index.
+c) A for loop is similar to a while loop but with a simpler syntax.
+d) None of the above.
+
+10. Explain the concept of a linked list. 
+a) A linked list is a data structure where elements are stored in contiguous memory locations.
+b) A linked list is a non-linear data structure used to represent hierarchical relationships.
+c) None of the above.
+d) A linked list is a linear data structure where each element (called a node) contains data and a pointer to the next element in the list.

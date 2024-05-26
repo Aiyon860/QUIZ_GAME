@@ -1,0 +1,59 @@
+1. Pointers to pointers are used for:
+a) Dynamic memory allocation only.
+b) Passing functions as arguments.
+c) Multidimensional arrays.
+d) None of the above.
+
+2. A hash table is a data structure that uses a hash function to map keys to values. What is a collision in a hash table
+a) When a key is not found in the table.
+b) When two keys map to the same index.
+c) When the hash table is full.
+d) None of the above.
+
+3. When dealing with memory management in C, it's important to avoid dangling pointers. What is a dangling pointer?
+a) A pointer that has not been initialized.
+b) A pointer that points to a constant variable.
+c) None of the above.
+d) A pointer that points to a memory location that has been freed.
+
+4. A self-balancing binary search tree is a type of binary search tree that:
+a) Maintains a balanced height difference between subtrees for efficient search and insertion.
+b) Only allows insertion of unique values.
+c) Performs faster searches on smaller datasets.
+d) Is simpler to implement than a standard binary search tree.
+
+5. What are some common applications of bit manipulation operations in C (e.g., shift operators, bitwise AND, OR, XOR)?
+a) Extracting individual bits from a byte or integer.
+b) Performing basic arithmetic operations more efficiently.
+c) All of the above.
+d) Manipulating flags and bit fields in memory.
+
+6. Graphs are non-linear data structures used to represent relationships between objects. What are the different ways to represent a graph in C, except?
+a) Adjacency matrix: A two-dimensional array where rows and columns represent vertices, and values indicate connections.
+b) Adjacency list: An array of linked lists, where each linked list represents the neighbors of a specific vertex.
+c) All of the above.
+d) Tree: A hierarchical structure where nodes are connected by parent-child relationships.
+
+7. Explain the concept of function pointers in C and how they can be used.
+a) Function pointers are a way to pass functions as arguments to other functions.
+b) Function pointers store the memory address of a function, allowing you to call functions directly.
+c) Function pointers can be used to create generic functions that work with different data types.
+d) All of the above.
+
+8. Heaps are specialized tree-based structures used for priority queues. What are the two main types of heaps and their properties?
+a) Min-heap: Priority is given to the element with the smallest value. Max-heap: Priority is given to the element with the largest value.
+b) Balanced heap: Ensures balanced height for efficient operations. Unbalanced heap: Can be more efficient for insertions but may have uneven height.
+c) Binary heap: Only allows two child nodes per parent. Fibonacci heap: Can have varying numbers of child nodes.
+d) Static heap: Fixed size allocated at compile time. Dynamic heap: Resizes based on data at runtime.
+
+9. Mention common strategies for handling memory errors in C programs.
+a) Use assertions to check assumptions about program state and terminate if violated.
+b) Perform input validation to ensure user-provided data is within expected ranges.
+c) Employ error codes or return values to signal errors from functions.
+d) All of the above.
+
+10. Describe the concept of time and space complexity analysis in algorithms.
+a) Time complexity measures the number of steps or operations an algorithm takes to execute as the input size grows.
+b) Space complexity measures the amount of additional memory an algorithm requires besides the input data.
+c) Both time and space complexity are analyzed using Big O notation, which describes the upper bound of an algorithm's resource usage.
+d) All.

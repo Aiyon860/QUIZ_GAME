@@ -1,0 +1,28 @@
+                             __       _______  __    __   __   _______   _______ .______     ______     ______    __  ___     __  
+                            |  |     /  _____||  |  |  | |  | |       \ |   ____||   _  \   /  __  \   /  __  \  |  |/  /    |  | 
+                            |  |    |  |  __  |  |  |  | |  | |  .--.  ||  |__   |  |_)  | |  |  |  | |  |  |  | |  '  /     |  | 
+                            |  |    |  | |_ | |  |  |  | |  | |  |  |  ||   __|  |   _  <  |  |  |  | |  |  |  | |    <      |  | 
+                            |__|    |  |__| | |  `--'  | |  | |  '--'  ||  |____ |  |_)  | |  `--'  | |  `--'  | |  .  \     |__| 
+                            (__)     \______|  \______/  |__| |_______/ |_______||______/   \______/   \______/  |__|\__\    (__) 
+
+
+----> CARA MAIN <----
+1. Soal kuis yang diberikan bertipe Pilihan Ganda (Multiple Choice) dengan 4 opsi jawaban.
+2. Soal kuis terdiri dari materi pemrograman bahasa C dan struktur data.
+3. Soal kuis dibedakan menjadi 3 level: EASY, MEDIUM, dan HARD. Masing-masing terdiri dari 10 soal.
+4. Secara riil soal kuis yang akan dikeluarkan hanya ada total 10 soal saja dengan komposisi berupa 3 soal EASY, 3 soal MEDIUM, dan 4 soal HARD.
+5. Terdapat sistem poin dimana setiap ketika kita dapat menyelesaikan suatu soal kita akan mendapatkan upah poin sesuai dengan tingkat kesulitan soal yang diselesaikan.
+5.1. Soal EASY akan mendapat 2 Poin, MEDIUM akan mendapat 5 poin, dan HARD akan mendapat 10 poin.
+6. Selain reward akan ada tambahan bonus booster poin setiap kali berhasil menjawab soal dengan benar.
+6.1 Bonus booster merupakan sebuah fitur tambahan ketika misalnya bonus booster berada di tingkat 2x maka poin yang didapat dari tiap soal akan menjadi 2 kali lipat. Begitu juga ketika di tingkat 3x maka poin akan berubah 3 kali lipat dari semula.
+6.2. Sebaliknya jika Anda salah menjawab pertanyaan, maka bonus booster tadi akan berkurang satu tingkat. Bonus booster paling rendah di angka 1x dan paling tinggi di angka 3x.
+6.3. Adanya fitur bonus booster ini sangatlah penting karena batas minimal nilai yang dibutuhkan untuk dapat lulus dari kuis ini sangatlah tinggi.
+7. Minimal Poin yang dibutuhkan agar bisa lulus dari kuis ini adalah 150 poin.
+8. Anda hanya diberi waktu 15 detik untuk setiap soal. Ketika tidak menjawab soal akan tetap dianggap salah dan bonus booster juga akan berkurang satu tingkat.
+
+
+                                                             __  __     __     __     __  __    
+                                                            /\ \/\ \   /\ \  _ \ \   /\ \/\ \   
+                                                            \ \ \_\ \  \ \ \/ ".\ \  \ \ \_\ \  
+                                                             \ \_____\  \ \__/".~\_\  \ \_____\ 
+                                                              \/_____/   \/_/   \/_/   \/_____/ 
