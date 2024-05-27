@@ -1,5 +1,6 @@
-#include "print_collections.h"
 #include <stdio.h>
+#include <windows.h>
+#include "print_collections.h"
 
 void print_header() 
 {
@@ -15,4 +16,27 @@ void print_header()
   printf("[C] Melihat Hasil Kuis\n");
   printf("[Q] Keluar\n");
   printf("Masukkan Pilihan: ");
+}
+
+bool print_pause()
+{
+  char choice;
+  bool isLoop = true;
+
+  // Confirmation dialog
+  printf("\n\n\t\t\t\t\t\t\t%sTekan \"ENTER\" untuk kembali ke menu utama: ", "  ");
+  scanf("%c", &choice);
+  fflush(stdin);
+
+  switch (choice) 
+  {
+    case '\n':
+      isLoop = false;
+      break;
+    default:
+      fprintf(stderr, "\n\t\t\t\t\t\tInput yang Anda masukkan tidak dimengerti, Silahkan coba kembali");
+      Sleep(3000);
+  }
+  
+  return isLoop;
 }

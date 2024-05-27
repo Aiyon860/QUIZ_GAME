@@ -2,6 +2,6 @@
 #define TIMER_H
 
 int randomize();
-void q_timer();
+void q_rest_timer(bool is_last);
 
 #endif

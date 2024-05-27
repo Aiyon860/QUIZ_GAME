@@ -11,15 +11,14 @@ typedef struct {
 
 void printDashboard(Student students[], int size) 
 {
-    printf("+-----------------------------+--------+---------+\n");
-    printf("| %-27s | %-6s | %-6s |\n", "Student Name", "Score", "Passing");
-    printf("+-----------------------------+--------+---------+\n");
+    printf("\t\t\t\t\t\t%5s+-----------------------------+--------+---------+\n", " ");
+    printf("\t\t\t\t\t\t%5s| %-27s | %-6s | %-6s |\n", " ", "Student Name", "Score", "Passing");
+    printf("\t\t\t\t\t\t%5s+-----------------------------+--------+---------+\n");
 
-    for (int i = 0; i < size; i++) {
-        printf("| %-27s | %-6d | %-6s %s|\n", students[i].name, students[i].score, students[i].score >= PASSING_SCORE ? "Yes" : "No", " ");
-    }
+    for (int i = 0; i < size; i++)
+        printf("\t\t\t\t\t\t%5s| %-27s | %-6d | %-6s %s|\n", " ", students[i].name, students[i].score, students[i].score >= PASSING_SCORE ? "Yes" : "No", " ");
 
-    printf("+-----------------------------+--------+---------+\n");
+    printf("\t\t\t\t\t\t%5s+-----------------------------+--------+---------+\n");
 }
 
 int main() {

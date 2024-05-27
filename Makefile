@@ -11,7 +11,7 @@ TARGET = bin\main.exe
 UTILS = utils
 UTILS_MENU = $(UTILS)/menu
 UTILS_QUIZ_RELATED = $(UTILS)/quiz_related
-SRCS = src/main.c $(UTILS_MENU)/print_header.c $(UTILS_MENU)/print_pause.c $(UTILS_QUIZ_RELATED)/timer.c
+SRCS = src/main.c $(UTILS_MENU)/print_collections.c $(UTILS_QUIZ_RELATED)/timer.c
 
 # Object directory
 OBJDIR = obj
